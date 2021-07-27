@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cake Academy</title>
+        <link rel="stylesheet" href="style3.css">
+        
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="2.png"></a>
+            <div class="nav-links"id ="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>COURSES</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>Beginner</h3>
+                <h8>
+                    This pack includes<br>
+                    1. 20+ Cake Recipes<br>
+                    2. Parchment Icing Recipes<br>
+                    3. Fondant Recipes<br>
+                    4. 11+ assignments<br>
+                </h8><br>
+                <h4>Duration : 4 Months</h4>
+                <h4>Price : 250$ </h4>
+            </div>
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <h8>
+                    This pack includes<br>
+                    1. 30+ Cake Recipes<br>
+                    2. Parchment Icing Recipes<br>
+                    3. Fondant and Gumpaste Recipes<br>
+                    4. 15+ assignments<br>
+                </h8><br>
+                <h4>Duration : 4.5 Months</h4>
+                <h4>Price : 450$ </h4>
+            </div>
+            <div class="course-col">
+                <h3>Advanced</h3>
+                <h8>
+                    This pack includes<br>
+                    1. 50+ Cake Recipes<br>
+                    2. Cake Decorations<br>
+                    3. Fondant and Sugarpaste Recipes<br>
+                    4. 20+ assignments<br>
+                </h8><br>
+                <h4>Duration : 5 Months</h4>
+                <h4>Price : 800$ </h4>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h3> Made with Love ! </h3>
+    </section>
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+            navLinks.style.visibility="visible";
+        }
+        function hideMenu(){
+            navLinks.style.visibility="hidden";
+        }
+    </script>
+</body>
